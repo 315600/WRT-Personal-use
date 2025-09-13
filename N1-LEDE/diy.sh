@@ -34,7 +34,7 @@ rm -rf feeds/packages/net/msd_lite
 # rm -rf feeds/luci/applications/luci-app-qbittorrent
 rm -rf feeds/packages/net/alist
 rm -rf feeds/luci/applications/luci-app-serverchan
-rm -rf feeds/packages/net/lucky
+#rm -rf feeds/packages/net/lucky
 
 #添加科学上网源
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall-packages
