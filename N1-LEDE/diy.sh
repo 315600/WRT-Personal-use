@@ -19,7 +19,11 @@ rm -rf feeds/packages/utils/v2dat
 rm -rf feeds/luci/applications/luci-app-mosdns
 #rm -rf feeds/luci/themes/luci-theme-design
 #rm -rf feeds/luci/applications/luci-app-design-config
-
+# 克隆 lucky 主程序和 LuCI 控制界面
+git clone --depth=1 https://github.com/RayleanB/packages package/RB_lucky
+mv package/RB_lucky/lucky package/
+mv package/RB_lucky/luci-app-lucky package/
+rm -rf package/RB_lucky
 # 自定义
 rm -rf feeds/luci/applications/luci-app-wol
 rm -rf feeds/packages/net/ddns-go
