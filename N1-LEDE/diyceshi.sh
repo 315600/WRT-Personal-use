@@ -33,7 +33,7 @@ rm -rf feeds/packages/net/msd_lite
 # rm -rf feeds/packages/net/qBittorrent-static
 # rm -rf feeds/luci/applications/luci-app-qbittorrent
 rm -rf feeds/packages/net/alist
-rm -rf feeds/luci/applications/luci-app-serverchan
+#rm -rf feeds/luci/applications/luci-app-serverchan
 #rm -rf feeds/packages/net/lucky
 
 #添加科学上网源
