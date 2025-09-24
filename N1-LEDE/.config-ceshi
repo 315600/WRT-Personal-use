@@ -67,7 +67,7 @@ CONFIG_PACKAGE_luci-app-openlist=y
 # -------------------------------------
 CONFIG_PACKAGE_luci-app-qbittorrent=n
 CONFIG_PACKAGE_luci-app-upnp=n
-CONFIG_PACKAGE_luci-app-serverchan=n
+CONFIG_PACKAGE_luci-app-serverchan=y
 CONFIG_PACKAGE_luci-app-timecontrol=y
 # 不安装插件
 CONFIG_PACKAGE_luci-app-msd_lite=n
@@ -87,7 +87,7 @@ CONFIG_PACKAGE_luci-app-mwan3helper=n
 CONFIG_PACKAGE_luci-app-netdata=n
 CONFIG_PACKAGE_luci-app-fileassistant=n
 # CONFIG_PACKAGE_luci-app-nps=y
-CONFIG_PACKAGE_luci-app-wechatpush=y
+CONFIG_PACKAGE_luci-app-wechatpush=n
 
 #acme
 CONFIG_PACKAGE_luci-app-acme=n
