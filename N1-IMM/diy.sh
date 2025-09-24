@@ -103,7 +103,7 @@ mv package/small/luci-app-design-config package/luci-app-design-config
 # mv package/small/aria2 feeds/packages/net/aria2
 #sed -i 's/services/nas/g' feeds/luci/applications/luci-app-aria2/root/usr/share/luci/menu.d/*.json
 
-sed -i 's/services/nas/g' feeds/luci/applications/luci-app-qbittorrent/root/usr/share/luci/menu.d/*.json
+#sed -i 's/services/nas/g' feeds/luci/applications/luci-app-qbittorrent/root/usr/share/luci/menu.d/*.json
 
 # netdata
 # rm -rf feeds/packages/admin/netdata
