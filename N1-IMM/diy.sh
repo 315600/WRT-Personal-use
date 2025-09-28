@@ -170,6 +170,10 @@ sed -i 's/services/nas/g' feeds/luci/applications/luci-app-alist/root/usr/share/
 #sed -i 's/services/nas/g' feeds/luci/applications/luci-app-openlist/root/usr/share/luci/menu.d/luci-app-openlist.json
 #sed -i 's/"title": "OpenList",/&\n        "order": 0,/g' feeds/luci/applications/luci-app-openlist/root/usr/share/luci/menu.d/luci-app-openlist.json
 
+# iStore
+git_sparse_clone main https://github.com/linkease/istore-ui app-store-ui
+git_sparse_clone main https://github.com/linkease/istore luci
+
 
 # 启用frp, luci用自带, frp第三方更新版本
 rm -rf feeds/packages/net/frp
